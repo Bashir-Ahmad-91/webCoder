@@ -1,0 +1,19 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      backgroundImage: {
+        'custom-image': "url('./src/assets/images/banner.png')",
+      },
+      fontFamily: {
+       headingFont: ["Lexend", "sans-serif"],
+       bodyFont: [ "Inter", "sans-serif"]
+      },
+    },
+  },
+  plugins: [],
+}
