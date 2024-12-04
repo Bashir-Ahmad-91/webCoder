@@ -3,7 +3,7 @@ import Banner from "../sections/Banner"
 import Header from "../sections/Header"
 import Sarvis from "../sections/Servic"
 import Portfolio from "../sections/Portfolio"
-import Contact from "../sections/Contact"
+// import Contact from "../sections/Contact"
 import Tachnology from "../sections/Tachnology"
 
 function Layout() {
@@ -14,7 +14,7 @@ function Layout() {
     <About />
     <Sarvis />
     <Portfolio />
-    <Contact />
+    {/* <Contact /> */}
     <Tachnology />
     </>
   )
